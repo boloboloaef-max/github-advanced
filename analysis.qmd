@@ -1,0 +1,17 @@
+---
+title: "GitHub Advanced"
+author: "Angel Frias"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+```
+
+```{r}
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
